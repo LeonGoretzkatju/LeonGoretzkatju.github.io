@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: Xiangchen Liu
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Xiangchen Liu
   links:
     - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/LeonGoretzkatju
 google_site_verification: xxxxx
 lang: en
 
