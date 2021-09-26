@@ -1,7 +1,7 @@
 # Setup
 title: AlexLiu
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+description: Learning Indoor SLAM and geometric segmentation
+url: https://leongoretzkatju.github.io/
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Xiangchen Liu
+  url: https://github.com/LeonGoretzkatju
+  email: Lxctdjy@tju.edu.cn
