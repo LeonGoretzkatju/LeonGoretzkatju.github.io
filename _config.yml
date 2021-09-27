@@ -28,17 +28,17 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: Xiangchen Liu
-  card: summary
-logo: logo.png
-social:
-  name: Xiangchen Liu
-  links:
-    - https://twitter.com/vszhub
-    - https://github.com/LeonGoretzkatju
-google_site_verification: xxxxx
-lang: en
+# twitter:
+#   username: Xiangchen Liu
+#   card: summary
+# logo: logo.png
+# social:
+#   name: Xiangchen Liu
+#   links:
+#     - https://twitter.com/vszhub
+#     - https://github.com/LeonGoretzkatju
+# google_site_verification: xxxxx
+# lang: en
 
 sass:
   sass_dir: _sass
