@@ -2,4 +2,4 @@
 layout: page
 title: Resume
 ---
-[My resume](resume.pdf)
+[My resume](CV.pdf)
