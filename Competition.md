@@ -21,3 +21,12 @@ The Robomaster competition video of our Robotics team is as follows:
 
 <iframe src="//player.bilibili.com/player.html?aid=588538782&bvid=BV1UB4y1T7v2&cid=351619836&page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+In [Robomaster](https://www.robomaster.com/en-US) 2022, I became the vice captain of the Tianjin University Robotics Team, mainly responsible for developing the stereo-vision system used industrial camera devices to reach a stage where the auto-aim system can perform more robustly and accurately, by redesigning the object-detection algorithm and predicting algorithm, the auto-aim system based on the stereo-vision perform much more better than the monocular-vision system in hit rate and success rate of the object detection. 
+
+## Honor
+
+Aug. 2020, China University Robot Competition Third Prize - Tianjin University
+
+May. 2021, China University Robot Competition in Northern Division First Prize - Tianjin University
+
+Aug. 2021, China University Robot Competition Second Prize - Tianjin University
