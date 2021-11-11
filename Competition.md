@@ -15,5 +15,5 @@ In [Robomaster](https://www.robomaster.com/en-US) 2021, I became the Technical D
 
 The test video is as follows:
 
-<iframe src="//player.bilibili.com/player.html?aid=889679381&bvid=BV1kP4y1x73P&cid=383936147&page=1" scrolling="no" border="0" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=889679381&bvid=BV1kP4y1x73P&cid=383936147&page=1" scrolling="no" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
