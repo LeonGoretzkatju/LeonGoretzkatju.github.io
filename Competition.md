@@ -15,11 +15,11 @@ In [Robomaster](https://www.robomaster.com/en-US) 2021, I became the Technical D
 
 The test video is as follows, as you can see, the shooting device can accurately track the enemy robot even the robot rotate and high speed.
 
-<iframe src="//player.bilibili.com/player.html?aid=889679381&bvid=BV1kP4y1x73P&cid=383936147&page=1" scrolling="no" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=889679381&bvid=BV1kP4y1x73P&cid=383936147&page=1" scrolling="no" width="720" height="540" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 The Robomaster competition video of our Robotics team is as follows:
 
-<iframe src="//player.bilibili.com/player.html?aid=588538782&bvid=BV1UB4y1T7v2&cid=351619836&page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=588538782&bvid=BV1UB4y1T7v2&cid=351619836&page=43" scrolling="no" width="720" height="540"border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 In [Robomaster](https://www.robomaster.com/en-US) 2022, I became the vice captain of the Tianjin University Robotics Team, mainly responsible for developing the stereo-vision system used industrial camera devices to reach a stage where the auto-aim system can perform more robustly and accurately, by redesigning the object-detection algorithm and predicting algorithm, the auto-aim system based on the stereo-vision perform much more better than the monocular-vision system in hit rate and success rate of the object detection. 
 
