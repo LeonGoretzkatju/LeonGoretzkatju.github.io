@@ -14,5 +14,5 @@ The overview of the whole SAMC systems is shown as below:
 
 The system is tested in multi living room SLAM datasets, including the ICL and Scannet, TUM RGB-D datasets, the following videos are the experimental results.
 
-<iframe src="./demoICLlr0.mp4" scrolling="no" width="720" height="540" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<video id="video" controls=""src="./demoICLlr0.mp4" preload="none">
 
