@@ -12,7 +12,17 @@ The overview of the whole SAMC systems is shown as below:
 
 ![refineoverview](./refineoverview.png)
 
-The system is tested in multi living room SLAM datasets, including the ICL and Scannet, TUM RGB-D datasets, the following videos are the experimental results. 123
+The system is tested in multi living room SLAM datasets, including the ICL and Scannet, TUM RGB-D datasets, the following videos are the experimental results.
 
 <iframe width="720" height="540" src="../video/demoICLlr0.mp4" frameborder="0" allowfullscreen></iframe>
+
+
+
+In this video, you can see that these blue plane points are the results of sparse map completion.  For a pair of RGB-D images, we firstly extract the geometric-interested (planar and non-planar) and semantic-interested (objects) regions that are used to analyze the occlusion situations. Commonly, those obscured areas are distributed on walls and floor. After detecting occlusion masks, we have known the non-planar points in the map, then we use the ray-casting method to finish the sparse-map completion, we compute the linear equation between the camera center and the non-planar points, we use multi-geometric constraints to calculate the most appropriate cross point, then we can get the sparse-map completion. 
+
+However, the occlusion phenomenon that appears in a certain view is possibly observed in new views. Therefore, it is important to update the predicted boundary lines and occluded planes created by each key-frame. After a new key-frame being selected, we project the completion information to the current frame, and the points that fall outside the non-planar area will be deleted. Furthermore, the endpoints of boundary lines are updated when related planes' regions grow up.
+
+What's more, it's not enough to get only the sparse-map completion, because sparse map cannot be applied directly in the robot devices, so we finish the dense-map reconstruction at the same time. We take advantage of the occlusion masks to separate them into different parts according to the cross-line between each two planes. In this way each occlusion part will not be affected by other regions, and the whole synthesis process can be accelerated using parallel computing method, which is more efficient than traditional method.
+
+
 
