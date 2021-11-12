@@ -24,5 +24,29 @@ However, the occlusion phenomenon that appears in a certain view is possibly obs
 
 What's more, it's not enough to get only the sparse-map completion, because sparse map cannot be applied directly in the robot devices, so we finish the dense-map reconstruction at the same time. We take advantage of the occlusion masks to separate them into different parts according to the cross-line between each two planes. In this way each occlusion part will not be affected by other regions, and the whole synthesis process can be accelerated using parallel computing method, which is more efficient than traditional method.
 
+We use the laplacian inpaint [1] as the method of our RGB image synthesis, we raise a new method about the depth synthesis, first we detect the occlusion areas in current image and judge which plane this area belongs to, secondly we project the occlusion area into the world position, by using the planar equation, we can calculate the depth of the occlusion area, therefore the depth synthesis can be accomplished.
 
+Here are the RGB and Depth image without synthesis
 
+<center class="half">
+    <img src="./rgb.png" width="300"/>
+    <img src="./depth.png" width="300"/>
+</center>
+
+Here are the RGB and Depth image after inpainted.
+
+<center class="half">
+    <img src="./rgb_inpaint.png" width="300"/>
+    <img src="./depth_inpaint.png" width="300"/>
+</center>
+
+Then we can use these images to finish the dense reconstruction using the TSDF.
+
+![dense reconstruction](./denserecon.png)
+
+## source code
+
+This work is under the instruction of the Dr. Yanyan Li, Ph.D student in Computer Aided Medical Procedures & Augmented Reality, Technical University of Munich. There is still some work need to be improved such as data association, the code will open-source when finish all the functions in this SMAC system.
+
+## reference
+[1] J. H. Lee, I. Choi and M. H. Kim, "Laplacian Patch-Based Image Synthesis," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 2727-2735, doi: 10.1109/CVPR.2016.298. <br />
