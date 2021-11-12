@@ -26,7 +26,7 @@ However, the occlusion phenomenon that appears in a certain view is possibly obs
 
 What's more, it's not enough to acquire only the sparse map completion, so we complete the dense map reconstruction at the same time. We take advantage of the occlusion masks to separate them into different parts according to the cross-line between every two planes. In this way each occlusion part will not be affected by other regions, and the process of image synthesis can be accelerated using parallel computing method, which is more efficient than traditional method.
 
-We use the Laplacian Patch-Based Image Synthesis [1] as the method of our RGB image synthesis, we raise a new method about the depth image synthesis, firstly we detect the occlusion areas in current image and judge which plane this area belongs to, secondly we project the occlusion area into the world position, by using the planar equation, we can calculate the depth of the occlusion area, therefore the progress of depth image synthesis can be accomplished.
+We use the Laplacian Patch-Based Image Synthesis [1] as the method of our RGB image synthesis, we raise a new method about the depth image synthesis, firstly we detect the occlusion areas in current image and judge which plane this area belongs to, secondly we project the occlusion area to the world position, by using the planar equation, we can calculate the depth of the occlusion area, therefore the progress of depth image synthesis can be accomplished.
 
 Here are the RGB image and Depth image without synthesis.
 
