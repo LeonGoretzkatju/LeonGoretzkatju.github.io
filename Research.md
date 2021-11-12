@@ -29,16 +29,18 @@ We use the laplacian inpaint [1] as the method of our RGB image synthesis, we ra
 Here are the RGB and Depth image without synthesis
 
 <center class="half">
-    <img src="./rgb.png" width="300"/>
-    <img src="./depth.png" width="300"/>
+    <img src="../rgb.png" width="300"/>
+    <img src="../depth.png" width="300"/>
 </center>
+
 
 Here are the RGB and Depth image after inpainted.
 
 <center class="half">
-    <img src="./rgb_inpaint.png" width="300"/>
-    <img src="./depth_inpaint.png" width="300"/>
+    <img src="../rgb_inpaint.png" width="300"/>
+    <img src="../depth_inpaint.png" width="300"/>
 </center>
+
 
 Then we can use these images to finish the dense reconstruction using the TSDF.
 
