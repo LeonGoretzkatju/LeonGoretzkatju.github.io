@@ -27,6 +27,9 @@ The Robomaster competition video of our Robotics team is as follows:
 
 In [Robomaster](https://www.robomaster.com/en-US) 2022, I became the vice captain of the Tianjin University Robotics Team, mainly responsible for developing the stereo-vision system used industrial camera devices to reach a stage where the auto-aim system can perform more robustly and accurately, by redesigning the object-detection algorithm and predicting algorithm, the auto-aim system based on the stereo-vision perform much more better than the monocular-vision system in hit rate and success rate of the object detection. 
 
+## Code
+We open-sourced our into two repositories: [TJU_RM_Vision](https://github.com/LeonGoretzkatju/TJU_RM_VISION) and [RM2021Vision](https://github.com/LeonGoretzkatju/RM2021Vision). The Stereo_Vision respository is under the development and I will open-source it when the system is fullly finished.
+
 ## Honor
 
 Aug. 2020, China University Robot Competition Third Prize - Tianjin University
