@@ -17,6 +17,8 @@ The test video is as follows, as you can see, the shooting device can accurately
 
 <iframe src="//player.bilibili.com/player.html?aid=889679381&bvid=BV1kP4y1x73P&cid=383936147&page=1" scrolling="no" width="720" height="540" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+<iframe src="//player.bilibili.com/player.html?aid=294168861&bvid=BV1uF411h7xr&cid=443452232&page=1" scrolling="no" width="720" height="540" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 The Robomaster competition video of our Robotics team is as follows:
 
 
