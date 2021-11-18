@@ -13,6 +13,10 @@ As a member of the control group in Tianjin University Robotics Team, I am respo
 
 In [Robomaster](https://www.robomaster.com/en-US) 2021, I became the Technical Director of the Vision-Algorithm group in Tianjin University Robotics Team, mainly responsible for developing the auto-aim system of the robot using the monocular and stereo vision, I combined the traditional computer vision method based on the geometric feature extraction and the neutral network method, our detection for some specific objects achieves real-time (200fps+) and it is robust enough to work on most normal situations. To achieve better performance in shooting moving targets, I fused the IMU data to do the motion prediction. This makes the system outperforms the human players in hit rate. This system is applied for the RoboMaster competition as an aim-support system and shows good results. The vision system was applied in the Robomaster 2021, we got the Second Prize in the China University Robot Competition.
 
+The framework of the vision system is as follows,
+
+![framework](./visionframework.png)
+
 The test video is as follows, as you can see, the shooting device can accurately track the enemy robot even the robot rotate and high speed.
 
 <iframe src="//player.bilibili.com/player.html?aid=889679381&bvid=BV1kP4y1x73P&cid=383936147&page=1" scrolling="no" width="720" height="540" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
