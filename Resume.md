@@ -2,9 +2,9 @@
 layout: page
 title: Resume
 ---
-[My resume](CV.pdf)
+[My resume](Xiangchen_cv_2022fall.pdf)
 
-![My resume](./doc1.png)
+![My resume](./cv20221.png)
 
-![](./doc3.png)
+![](./cv20222.png)
 
